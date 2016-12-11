@@ -6,8 +6,8 @@
     </head>
     
     <body>
- +       <?php wp_nav_menu(array('Menu uno' => 'Menu dos'));?>
-        <a href="https://wordpressmanu-gallegomanuel88.c9users.io/">
-            
-            <div id="header" />
-        </a>
+        
+        <h1>Menu</h1>
+        <?php wp_nav_menu(array('Menu uno' => 'Menu dos'));?>
+        <p><div id="header" /></p>
+        
