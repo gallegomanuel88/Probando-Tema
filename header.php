@@ -6,7 +6,7 @@
     </head>
     
     <body>
-        <?php wp_nav_menu(array('Tiendas' => 'Tiendas'));?>
+        <?php wp_nav_menu(array('menu' => 'Deportes'));?>
         <div id="header">
 		    <div id="menu">
 		        <ul class="nav">

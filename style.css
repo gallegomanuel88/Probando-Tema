@@ -59,3 +59,18 @@ ul, ol {
 	right:-140px;
 	top:0px;
 	}
+#sidebar{
+	float:right;
+    clear:both;
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+}
+#desenlace{
+	
+   position: relative;
+   margin-top: -50px; 
+   height: 50px; 
+   clear: both;
+
+}
