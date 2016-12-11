@@ -8,4 +8,5 @@
             }
         }
         ?>
+<?php get_sidebar("home_right_1");?>
 <?php get_footer(); ?>
