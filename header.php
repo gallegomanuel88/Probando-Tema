@@ -7,7 +7,10 @@
     
     <body>
         
-        <h1>Menu</h1>
+        <h1>Menu
+        <p><div id="header"/></p>
+        </h1>
         <?php wp_nav_menu(array('Menu uno' => 'Menu dos'));?>
-        <p><div id="header" /></p>
+        
+        
         
