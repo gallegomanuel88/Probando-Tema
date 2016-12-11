@@ -6,11 +6,56 @@
     </head>
     
     <body>
-        
-        <h1>Menu
-        <p><div id="header"/></p>
-        </h1>
-        <?php wp_nav_menu(array('Menu uno' => 'Menu dos'));?>
+        <?php wp_nav_menu(array('Tiendas' => 'Tiendas'));?>
+        <div id="header">
+		    <div id="menu">
+		        <ul class="nav">
+				    <li>
+				    	<a href="">Deportes</a>
+				    	<ul>
+						    <li><a href="">Holi</a></li>
+    						<li><a href="">Segunda subetiqueta</a></li>
+						    <li><a href="">Tercera subetiqueta</a></li>
+						    <li><a href="">Cuarta subetiqueta</a></li>
+						    <li><a href="">Quinta subetiqueta</a></li>
+						    <li><a href="">Sexta subetiqueta</a></li>
+                        </ul>
+				    </li>
+				    <li>
+				        <a href="">Segunda etiqueta</a>
+					    <ul>
+						    <li><a href="">Primera subetiqueta</a></li>
+    						<li><a href="">Segunda subetiqueta</a></li>
+						    <li><a href="">Tercera subetiqueta</a></li>
+                        </ul>
+					</li>
+				    <li>
+				        <a href="">Tercera etiqueta</a>
+					    <ul>
+						    <li><a href="">Primera subetiqueta</a></li>
+    						<li><a href="">Segunda subetiqueta</a></li>
+						    <li><a href="">Tercera subetiqueta</a></li>
+                        </ul>
+				    </li>
+				    <li>
+				    	<a href="">Cuarta etiqueta</a>
+				    	<ul>
+						    <li><a href="">Primera subetiqueta</a></li>
+    						<li><a href="">Segunda subetiqueta</a></li>
+						    <li><a href="">Tercera subetiqueta</a></li>
+                        </ul>
+				    </li>
+				    <li>
+				    	<a href="">Quinta etiqueta</a>
+				    	<ul>
+						    <li><a href="">Primera subetiqueta</a></li>
+    						<li><a href="">Segunda subetiqueta</a></li>
+						    <li><a href="">Tercera subetiqueta</a></li>
+                        </ul>
+				    </li>
+			    </ul>
+			</div> 
+        </div>
         
         
         
